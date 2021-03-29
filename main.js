@@ -32,6 +32,7 @@ function mousePressed() {
     }
 
 function draw() {
+    /*
     if (!isFullScreen) {
         background(0);
         fill(255);
@@ -45,6 +46,7 @@ function draw() {
         }
     } else {
         if (! started) {
+            */
             background(0);
             fill(255);
             textSize(20);
@@ -55,8 +57,8 @@ function draw() {
             text('a:'+String(alpha), windowWidth/2, windowHeight*2/5);
             text('b:'+String(beta), windowWidth/2, windowHeight*3/5);
             text('c:'+String(gamma), windowWidth/2, windowHeight*4/5);
-        }
-    }
+//        }
+//    }
 }
 
 window.addEventListener('deviceorientation', function(e) 
