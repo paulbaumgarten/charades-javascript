@@ -54,9 +54,9 @@ function draw() {
             //text('Tilt up to skip a word', windowWidth/2, windowHeight*2/4);
             //text('Tilt down if you get it correct', windowWidth/2, windowHeight*3/4);
             text('values', windowWidth/2, windowHeight*1/5);
-            text('a:'+String(alpha), windowWidth/2, windowHeight*2/5);
-            text('b:'+String(beta), windowWidth/2, windowHeight*3/5);
-            text('c:'+String(gamma), windowWidth/2, windowHeight*4/5);
+            text('a:'+alpha.toFixed(2), windowWidth/2, windowHeight*2/5);
+            text('b:'+beta.toFixed(2), windowWidth/2, windowHeight*3/5);
+            text('c:'+gamma.toFixed(2), windowWidth/2, windowHeight*4/5);
 //        }
 //    }
 }
